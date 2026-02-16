@@ -1,0 +1,161 @@
+{
+  "personal": {
+    "name": "Chaitya Wasnik",
+    "role": "Software Development Engineer",
+    "tagline": "Building performant, scalable full-stack applications that solve real problems.",
+    "email": "official.chaitya07@gmail.com",
+    "phone": "+91-8805275357",
+    "location": "Bangalore, India",
+    "linkedin": "https://www.linkedin.com/in/chaitya-wasnik-007/",
+    "github": "https://github.com/chaitya-titan"
+  },
+  "skills": {
+    "languages": ["Python", "JavaScript", "TypeScript", "Java"],
+    "frameworks": ["React", "React Native", "Next.js", "Spring Boot", "Express.js", "Flask", "Redux", "Node.js"],
+    "databases": ["MongoDB", "PostgreSQL", "Redis", "Elastic Search"],
+    "devops": ["Kafka", "Docker", "Microservices", "WebSockets", "Prisma", "ELK", "Grafana", "Prometheus"]
+  },
+  "experience": [
+    {
+      "company": "Best Buy",
+      "role": "Software Development Engineer 1",
+      "period": "Apr 2025 — Present",
+      "highlights": [
+        "Developed a cross-platform (iOS & Android) carousel component using ReactJS and React Native to display ongoing orders, repairs, and appointments.",
+        "Engineered Java Spring Boot APIs using GraphQL to integrate with Assurant’s third-party insurance APIs, providing real-time visibility of active claims.",
+        "Built a Java Spring Boot microservice that consumes repair events from Kafka, persists data to GCP, and exposes it via REST APIs for status tracking.",
+        "Consolidated support experience by enhancing /support and /customer/devices pages, providing a unified view of devices and streamlined support access.",
+        "Enabled self-service features that save $112,000 annually in operational costs by reducing customer support call volume."
+      ]
+    },
+    {
+      "company": "Lowe's India",
+      "role": "Full Stack Engineer",
+      "period": "Oct 2022 — Apr 2025",
+      "highlights": [
+        "Architected scalable REST APIs and built Codex — a centralized React dashboard for network operations",
+        "Integrated OAuth2 SSO (ForgeRock) and implemented real-time WebSocket feedback pipelines",
+        "Designed event-driven workflows with Kafka and created the Catalyst Orchestrator for network monitoring",
+        "Automated storage provisioning and failover mechanisms, saving ~$120,000 in operational costs",
+        "Implemented Redis caching reducing API response times from 600ms to 20ms"
+      ]
+    },
+    {
+      "company": "Capgemini",
+      "role": "Jr. SAP ABAP Consultant",
+      "period": "May 2021 — Oct 2022",
+      "highlights": [
+        "Managed client revenue data analysis and built optimized Business Objects reports",
+        "Fixed process chain failures and reduced downtime by over 30%",
+        "Optimized monitoring workflows for real-time system health tracking",
+        "Developed custom ABAP programs to automate repetitive data processing tasks"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Government College of Engineering, Nagpur",
+      "degree": "B.Tech in Computer Science",
+      "year": "2017 — 2021",
+      "score": "7.61 CGPA"
+    },
+    {
+      "institution": "Shivaji Science College, Nagpur",
+      "degree": "Higher Secondary School",
+      "year": "2015 — 2017",
+      "score": "74.92%"
+    },
+    {
+      "institution": "Bhavan's B.P. Vidya Mandir, Nagpur",
+      "degree": "School",
+      "year": "1999 — 2015",
+      "score": "9.6 CGPA"
+    }
+  ],
+  "projects": [
+    {
+      "title": "E-Commerce Microservices",
+      "type": "Personal",
+      "description": "A distributed e-commerce platform built with microservices architecture featuring service discovery, centralized configuration, and event-driven workflows.",
+      "tech": ["Java", "Spring Boot", "Spring Cloud", "Kafka", "Docker", "Zipkin"],
+      "github": "https://github.com/chaitya-titan/e-commerce-microservice-monorepo",
+      "highlights": ["Microservices", "Service Discovery", "Event-Driven", "Containerized"]
+    },
+    {
+      "title": "Spring Blog API",
+      "type": "Personal",
+      "description": "A comprehensive backend for a blog application with user authentication, profile management, and secure JWT-based API endpoints.",
+      "tech": ["Java", "Spring Boot", "PostgreSQL", "JWT"],
+      "github": "https://github.com/chaitya-titan/Spring-blog-api",
+      "highlights": ["JWT Auth", "CRUD Operations", "Secure APIs", "Profile Management"]
+    },
+    {
+      "title": "Swiggy-clone (QEats)",
+      "type": "Personal",
+      "description": "A distributed Java backend for a food ordering app featuring Spring Boot, MongoDB for data persistence, and Redis for performance optimization.",
+      "tech": ["Java", "Spring Boot", "MongoDB", "Redis", "Mockito", "Jackson"],
+      "github": "https://github.com/chaitya-titan",
+      "highlights": ["Redis Caching", "32% Latency Reduction", "Unit Testing", "REST APIs"]
+    },
+    {
+      "title": "Legacy Reconciler DOM",
+      "type": "Personal",
+      "description": "A custom Virtual DOM diffing and reconciliation algorithm implementation showcasing deep understanding of frontend rendering engines.",
+      "tech": ["JavaScript", "HTML", "Virtual DOM"],
+      "github": "https://github.com/chaitya-titan/legacy-reconciler-DOM",
+      "highlights": ["Virtual DOM", "Diffing Algorithm", "Reconciliation", "Performance"]
+    },
+    {
+      "title": "Adaptive Support Router",
+      "type": "Company",
+      "description": "GraphQL-based integration service at Best Buy that connects internal systems with third-party insurance APIs for real-time insurance claims.",
+      "tech": ["Java", "Spring Boot", "GraphQL", "Brix", "Microservices"],
+      "highlights": ["GraphQL Orchestration", "Third-party Integration", "Real-time Visibility"]
+    },
+    {
+      "title": "Repair Vault Consumer",
+      "type": "Company",
+      "description": "High-throughput service at Best Buy that processes repair events via Kafka and persists state to GCP for customer tracking.",
+      "tech": ["Java", "Spring Boot", "Kafka", "GCP", "REST API"],
+      "highlights": ["Event-Driven Ingestion", "GCP Persistence", "Operational Savings"]
+    },
+    {
+      "title": "Codex",
+      "type": "Company",
+      "description": "A centralized React dashboard for executing network scripts at Lowe's, reducing manual work by an average of 3 days per task.",
+      "tech": ["React", "Express.TS", "MongoDB", "Redis", "WebSockets", "Prisma"],
+      "highlights": ["SSO Integration", "Real-time Output", "Network Automation", "Operational Efficiency"]
+    },
+    {
+      "title": "Catalyst Orchestrator",
+      "type": "Company",
+      "description": "Event-driven workflow engine for real-time provisioning and monitoring of network devices using Kafka, Grafana, and Prometheus.",
+      "tech": ["Spring Boot", "Kafka", "PostgreSQL", "Grafana", "Prometheus"],
+      "highlights": ["Event-Driven", "Real-time Monitoring", "Automated Provisioning", "Observed Metrics"]
+    },
+    {
+      "title": "Cross-Platform Carousel",
+      "type": "Company",
+      "description": "A unified carousel component for Best Buy's web and mobile platforms used for tracking orders and repairs with consistent UX.",
+      "tech": ["React", "React Native", "GraphQL", "Spring Boot"],
+      "highlights": ["iOS & Android", "GraphQL Integration", "Shared UX", "React Native"]
+    }
+  ],
+  "openSource": [
+    {
+      "project": "Strapi",
+      "description": "Contributed to the leading open-source headless CMS — a backend used by thousands of developers worldwide.",
+      "link": "https://github.com/strapi/strapi"
+    },
+    {
+      "project": "Cal.com",
+      "description": "Contributed to the open-source scheduling infrastructure used widely for calendar management.",
+      "link": "https://github.com/calcom/cal.com"
+    },
+    {
+      "project": "Wanderlust",
+      "description": "Contributed to a community-driven open-source travel application.",
+      "link": "https://github.com/krishnaacharyaa/wanderlust"
+    }
+  ]
+}
